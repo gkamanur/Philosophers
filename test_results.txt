@@ -1,0 +1,830 @@
+[1;1H[2J
+[0;34m42 Philosophers Tester[0m	2025/10/29
+Iterations: 10
+
+[1;35mMandatory tests (eval sheet)		[0][0m
+
+Normal tests				[1]
+Hardcore tests (a lot)			[2]
+
+Exit Tester				[ESC]
+
+
+
+Please choose:
+[1;1H[2J[1;1H[2J
+[0;34m42 Philosophers Tester[0m	2025/10/29
+Iterations: 10
+
+[1;35mAll tests				[0][0m
+
+Uneven numbers that shouldn't die	[1]
+Even numbers that shouldn't die		[2]
+[1;35mAll numbers that shouldn't die		[3][0m
+
+Uneven numbers that should die		[4]
+Even numbers that should die		[5]
+[1;35mAll numbers that should die		[6][0m
+
+[0;35mOwn tests				[7][0m
+Exit Tester				[ESC]
+
+
+
+Please choose:
+[1;1H[2J[0;36mTesting uneven numbers - they shouldn't die[0m
+
+	[0;33m5 800 200 200 10[0m
+LOADING	[2K 1	[0;32mPass[0m	[0;32m[✓][0m	5005 4 is thinking
+LOADING	[1;92m#[0m[2K 2	[0;32mPass[0m	[0;32m[✓][0m	5000 3 is thinking
+LOADING	[1;92m#[0m[1;92m#[0m[2K 3	[0;32mPass[0m	[0;32m[✓][0m	5000 1 is thinking
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 4	[0;32mPass[0m	[0;32m[✓][0m	5006 3 has taken a fork
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 5	[0;32mPass[0m	[0;32m[✓][0m	5005 5 is thinking
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 6	[0;32mPass[0m	[0;32m[✓][0m	5005 3 has taken a fork
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 7	[0;32mPass[0m	[0;32m[✓][0m	5005 4 is thinking
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 8	[0;32mPass[0m	[0;32m[✓][0m	5000 1 is eating
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 9	[0;32mPass[0m	[0;32m[✓][0m	5005 3 has taken a fork
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 10	[0;32mPass[0m	[0;32m[✓][0m	5000 1 is thinking
+	[0;32m100 % correct[0m
+____________________________________________
+	[0;33m5 610 200 200 10[0m
+LOADING	[2K 1	[0;32mPass[0m	[0;32m[✓][0m	5005 4 is thinking
+LOADING	[1;92m#[0m[2K 2	[0;32mPass[0m	[0;32m[✓][0m	5005 5 is sleeping
+LOADING	[1;92m#[0m[1;92m#[0m[2K 3	[0;32mPass[0m	[0;32m[✓][0m	5005 3 has taken a fork
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 4	[0;32mPass[0m	[0;32m[✓][0m	5005 5 is thinking
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 5	[0;32mPass[0m	[0;32m[✓][0m	5005 5 is thinking
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 6	[0;32mPass[0m	[0;32m[✓][0m	5005 3 has taken a fork
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 7	[0;32mPass[0m	[0;32m[✓][0m	5005 4 is thinking
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 8	[0;32mPass[0m	[0;32m[✓][0m	5005 4 is thinking
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 9	[0;32mPass[0m	[0;32m[✓][0m	5005 5 is thinking
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 10	[0;32mPass[0m	[0;32m[✓][0m	5005 4 is thinking
+	[0;32m100 % correct[0m
+____________________________________________
+	[0;33m199 610 200 200 10[0m
+LOADING	[2K 1	[0;32mPass[0m	[0;32m[✓][0m	4201 5 is sleeping
+LOADING	[1;92m#[0m[2K 2	[0;32mPass[0m	[0;32m[✓][0m	4201 189 has taken a fork
+LOADING	[1;92m#[0m[1;92m#[0m[2K 3	[0;32mPass[0m	[0;32m[✓][0m	4201 3 is sleeping
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 4	[0;32mPass[0m	[0;32m[✓][0m	4200 183 has taken a fork
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 5	[0;32mPass[0m	[0;32m[✓][0m	4201 8 is eating
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 6	[0;32mPass[0m	[0;32m[✓][0m	4201 5 is sleeping
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 7	[0;32mPass[0m	[0;32m[✓][0m	4201 6 is thinking
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 8	[0;32mPass[0m	[0;32m[✓][0m	4200 5 is sleeping
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 9	[0;32mPass[0m	[0;32m[✓][0m	4201 196 is sleeping
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 10	[0;32mPass[0m	[0;32m[✓][0m	4201 195 has taken a fork
+	[0;32m100 % correct[0m
+____________________________________________
+[0;36mTesting uneven numbers (overkill) - they shouldn't die[0m
+
+	[0;33m5 610 200 100 10[0m
+LOADING	[2K 1	[0;31mFail[0m	[0;31m[x][0m	610 1 died
+LOADING	[1;92m#[0m[2K 2	[0;31mFail[0m	[0;31m[x][0m	610 1 died
+LOADING	[1;92m#[0m[1;92m#[0m[2K 3	[0;31mFail[0m	[0;31m[x][0m	1210 5 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 4	[0;31mFail[0m	[0;31m[x][0m	610 1 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 5	[0;31mFail[0m	[0;31m[x][0m	610 1 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 6	[0;31mFail[0m	[0;31m[x][0m	3210 5 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 7	[0;31mFail[0m	[0;31m[x][0m	610 1 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 8	[0;31mFail[0m	[0;31m[x][0m	610 1 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 9	[0;31mFail[0m	[0;31m[x][0m	1211 5 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 10	[0;31mFail[0m	[0;31m[x][0m	610 1 died
+	[0;31m0 % correct[0m
+____________________________________________
+	[0;33m5 601 200 200 10[0m
+LOADING	[2K 1	[0;32mPass[0m	[0;32m[✓][0m	5005 4 is thinking
+LOADING	[1;92m#[0m[2K 2	[0;32mPass[0m	[0;32m[✓][0m	5005 5 is thinking
+LOADING	[1;92m#[0m[1;92m#[0m[2K 3	[0;32mPass[0m	[0;32m[✓][0m	5000 3 is eating
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 4	[0;32mPass[0m	[0;32m[✓][0m	5005 3 has taken a fork
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 5	[0;32mPass[0m	[0;32m[✓][0m	5001 1 is thinking
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 6	[0;32mPass[0m	[0;32m[✓][0m	5005 5 is sleeping
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 7	[0;32mPass[0m	[0;32m[✓][0m	5005 3 has taken a fork
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 8	[0;32mPass[0m	[0;32m[✓][0m	5005 4 is thinking
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 9	[0;32mPass[0m	[0;32m[✓][0m	5000 1 is thinking
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 10	[0;32mPass[0m	[0;32m[✓][0m	5000 3 is eating
+	[0;32m100 % correct[0m
+____________________________________________
+	[0;33m31 610 200 100 10[0m
+LOADING	[2K 1	[0;32mPass[0m	[0;32m[✓][0m	4201 21 has taken a fork
+LOADING	[1;92m#[0m[2K 2	[0;32mPass[0m	[0;32m[✓][0m	4201 20 is sleeping
+LOADING	[1;92m#[0m[1;92m#[0m[2K 3	[0;32mPass[0m	[0;32m[✓][0m	4201 19 is eating
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 4	[0;32mPass[0m	[0;32m[✓][0m	4201 26 is sleeping
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 5	[0;32mPass[0m	[0;32m[✓][0m	4201 30 is sleeping
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 6	[0;32mPass[0m	[0;32m[✓][0m	4201 29 has taken a fork
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 7	[0;32mPass[0m	[0;32m[✓][0m	4201 13 is eating
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 8	[0;32mPass[0m	[0;32m[✓][0m	4201 28 is sleeping
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 9	[0;32mPass[0m	[0;32m[✓][0m	4201 1 is sleeping
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 10	[0;32mPass[0m	[0;32m[✓][0m	4200 16 is sleeping
+	[0;32m100 % correct[0m
+____________________________________________
+	[0;33m31 610 200 200 10[0m
+LOADING	[2K 1	[0;31mFail[0m	[0;31m[x][0m	611 1 died
+LOADING	[1;92m#[0m[2K 2	[0;31mFail[0m	[0;31m[x][0m	611 1 died
+LOADING	[1;92m#[0m[1;92m#[0m[2K 3	[0;32mPass[0m	[0;32m[✓][0m	4201 31 has taken a fork
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 4	[0;32mPass[0m	[0;32m[✓][0m	4201 21 is eating
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 5	[0;32mPass[0m	[0;32m[✓][0m	4200 23 has taken a fork
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 6	[0;32mPass[0m	[0;32m[✓][0m	4201 25 is thinking
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 7	[0;32mPass[0m	[0;32m[✓][0m	4201 6 is thinking
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 8	[0;31mFail[0m	[0;31m[x][0m	810 2 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 9	[0;31mFail[0m	[0;31m[x][0m	611 1 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 10	[0;32mPass[0m	[0;32m[✓][0m	4201 4 is thinking
+	[0;31m60 % correct[0m
+____________________________________________
+	[0;33m31 605 200 200 10[0m
+LOADING	[2K 1	[0;32mPass[0m	[0;32m[✓][0m	4201 23 is eating
+LOADING	[1;92m#[0m[2K 2	[0;32mPass[0m	[0;32m[✓][0m	4201 31 has taken a fork
+LOADING	[1;92m#[0m[1;92m#[0m[2K 3	[0;32mPass[0m	[0;32m[✓][0m	4201 2 is eating
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 4	[0;31mFail[0m	[0;31m[x][0m	806 2 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 5	[0;32mPass[0m	[0;32m[✓][0m	4200 15 has taken a fork
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 6	[0;32mPass[0m	[0;32m[✓][0m	4201 2 is thinking
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 7	[0;31mFail[0m	[0;31m[x][0m	805 2 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 8	[0;32mPass[0m	[0;32m[✓][0m	4201 25 is thinking
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 9	[0;32mPass[0m	[0;32m[✓][0m	4201 16 is sleeping
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 10	[0;32mPass[0m	[0;32m[✓][0m	4201 31 is thinking
+	[0;33m80 % correct[0m
+____________________________________________
+	[0;33m31 601 200 200 10[0m
+LOADING	[2K 1	[0;31mFail[0m	[0;31m[x][0m	802 2 died
+LOADING	[1;92m#[0m[2K 2	[0;31mFail[0m	[0;31m[x][0m	602 1 died
+LOADING	[1;92m#[0m[1;92m#[0m[2K 3	[0;32mPass[0m	[0;32m[✓][0m	4200 15 is thinking
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 4	[0;32mPass[0m	[0;32m[✓][0m	4200 31 is thinking
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 5	[0;32mPass[0m	[0;32m[✓][0m	4201 29 is eating
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 6	[0;32mPass[0m	[0;32m[✓][0m	4201 8 is thinking
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 7	[0;31mFail[0m	[0;31m[x][0m	1002 3 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 8	[0;32mPass[0m	[0;32m[✓][0m	4200 31 has taken a fork
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 9	[0;32mPass[0m	[0;32m[✓][0m	4201 2 has taken a fork
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 10	[0;32mPass[0m	[0;32m[✓][0m	4201 6 has taken a fork
+	[0;33m70 % correct[0m
+____________________________________________
+	[0;33m131 610 200 100 10[0m
+LOADING	[2K 1	[0;32mPass[0m	[0;32m[✓][0m	4201 3 is sleeping
+LOADING	[1;92m#[0m[2K 2	[0;32mPass[0m	[0;32m[✓][0m	4200 124 is sleeping
+LOADING	[1;92m#[0m[1;92m#[0m[2K 3	[0;32mPass[0m	[0;32m[✓][0m	4201 15 is sleeping
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 4	[0;32mPass[0m	[0;32m[✓][0m	4201 127 is eating
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 5	[0;32mPass[0m	[0;32m[✓][0m	4200 114 is sleeping
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 6	[0;32mPass[0m	[0;32m[✓][0m	4200 119 has taken a fork
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 7	[0;32mPass[0m	[0;32m[✓][0m	4201 128 is sleeping
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 8	[0;32mPass[0m	[0;32m[✓][0m	4201 113 has taken a fork
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 9	[0;32mPass[0m	[0;32m[✓][0m	4201 119 has taken a fork
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 10	[0;32mPass[0m	[0;32m[✓][0m	4201 26 is eating
+	[0;32m100 % correct[0m
+____________________________________________
+	[0;33m131 610 200 200 10[0m
+LOADING	[2K 1	[0;32mPass[0m	[0;32m[✓][0m	4201 125 has taken a fork
+LOADING	[1;92m#[0m[2K 2	[0;32mPass[0m	[0;32m[✓][0m	4201 24 has taken a fork
+LOADING	[1;92m#[0m[1;92m#[0m[2K 3	[0;32mPass[0m	[0;32m[✓][0m	4201 129 has taken a fork
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 4	[0;32mPass[0m	[0;32m[✓][0m	4200 128 is sleeping
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 5	[0;32mPass[0m	[0;32m[✓][0m	4200 125 has taken a fork
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 6	[0;32mPass[0m	[0;32m[✓][0m	4201 18 has taken a fork
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 7	[0;32mPass[0m	[0;32m[✓][0m	4201 23 is sleeping
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 8	[0;32mPass[0m	[0;32m[✓][0m	4201 121 is thinking
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 9	[0;32mPass[0m	[0;32m[✓][0m	4200 120 is sleeping
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 10	[0;32mPass[0m	[0;32m[✓][0m	4201 18 is eating
+	[0;32m100 % correct[0m
+____________________________________________
+	[0;33m131 605 200 200 10[0m
+LOADING	[2K 1	[0;32mPass[0m	[0;32m[✓][0m	4201 124 is sleeping
+LOADING	[1;92m#[0m[2K 2	[0;32mPass[0m	[0;32m[✓][0m	4201 119 has taken a fork
+LOADING	[1;92m#[0m[1;92m#[0m[2K 3	[0;32mPass[0m	[0;32m[✓][0m	4201 126 is sleeping
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 4	[0;32mPass[0m	[0;32m[✓][0m	4201 6 is thinking
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 5	[0;32mPass[0m	[0;32m[✓][0m	4201 5 is sleeping
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 6	[0;32mPass[0m	[0;32m[✓][0m	4201 121 has taken a fork
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 7	[0;32mPass[0m	[0;32m[✓][0m	4201 3 is sleeping
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 8	[0;32mPass[0m	[0;32m[✓][0m	4201 118 is sleeping
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 9	[0;32mPass[0m	[0;32m[✓][0m	4200 116 is sleeping
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 10	[0;32mPass[0m	[0;32m[✓][0m	4201 2 has taken a fork
+	[0;32m100 % correct[0m
+____________________________________________
+	[0;33m131 601 200 200 10[0m
+LOADING	[2K 1	[0;32mPass[0m	[0;32m[✓][0m	4200 125 is thinking
+LOADING	[1;92m#[0m[2K 2	[0;32mPass[0m	[0;32m[✓][0m	4200 117 has taken a fork
+LOADING	[1;92m#[0m[1;92m#[0m[2K 3	[0;32mPass[0m	[0;32m[✓][0m	4200 123 is eating
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 4	[0;32mPass[0m	[0;32m[✓][0m	4201 12 is eating
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 5	[0;32mPass[0m	[0;32m[✓][0m	4200 127 is thinking
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 6	[0;32mPass[0m	[0;32m[✓][0m	4200 115 has taken a fork
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 7	[0;32mPass[0m	[0;32m[✓][0m	4201 129 has taken a fork
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 8	[0;32mPass[0m	[0;32m[✓][0m	4201 129 has taken a fork
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 9	[0;32mPass[0m	[0;32m[✓][0m	4201 131 is thinking
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 10	[0;32mPass[0m	[0;32m[✓][0m	4201 130 is sleeping
+	[0;32m100 % correct[0m
+____________________________________________
+	[0;33m199 610 200 100 10[0m
+LOADING	[2K 1	[0;32mPass[0m	[0;32m[✓][0m	4200 198 is sleeping
+LOADING	[1;92m#[0m[2K 2	[0;32mPass[0m	[0;32m[✓][0m	4201 6 is eating
+LOADING	[1;92m#[0m[1;92m#[0m[2K 3	[0;32mPass[0m	[0;32m[✓][0m	4200 185 has taken a fork
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 4	[0;32mPass[0m	[0;32m[✓][0m	4201 13 is sleeping
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 5	[0;32mPass[0m	[0;32m[✓][0m	4201 15 is sleeping
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 6	[0;32mPass[0m	[0;32m[✓][0m	4201 184 is sleeping
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 7	[0;32mPass[0m	[0;32m[✓][0m	4200 185 has taken a fork
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 8	[0;32mPass[0m	[0;32m[✓][0m	4200 192 is sleeping
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 9	[0;32mPass[0m	[0;32m[✓][0m	4201 12 has taken a fork
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 10	[0;32mPass[0m	[0;32m[✓][0m	4201 197 has taken a fork
+	[0;32m100 % correct[0m
+____________________________________________
+	[0;33m199 610 200 200 10[0m
+LOADING	[2K 1	[0;32mPass[0m	[0;32m[✓][0m	4201 198 is sleeping
+LOADING	[1;92m#[0m[2K 2	[0;32mPass[0m	[0;32m[✓][0m	4200 4 has taken a fork
+LOADING	[1;92m#[0m[1;92m#[0m[2K 3	[0;32mPass[0m	[0;32m[✓][0m	4201 2 is thinking
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 4	[0;32mPass[0m	[0;32m[✓][0m	4200 196 is sleeping
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 5	[0;32mPass[0m	[0;32m[✓][0m	4201 190 is sleeping
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 6	[0;32mPass[0m	[0;32m[✓][0m	4201 195 has taken a fork
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 7	[0;32mPass[0m	[0;32m[✓][0m	4201 187 is thinking
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 8	[0;32mPass[0m	[0;32m[✓][0m	4200 185 has taken a fork
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 9	[0;32mPass[0m	[0;32m[✓][0m	4201 185 has taken a fork
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 10	[0;32mPass[0m	[0;32m[✓][0m	4201 196 is sleeping
+	[0;32m100 % correct[0m
+____________________________________________
+	[0;33m199 605 200 200 10[0m
+LOADING	[2K 1	[0;32mPass[0m	[0;32m[✓][0m	4201 193 has taken a fork
+LOADING	[1;92m#[0m[2K 2	[0;32mPass[0m	[0;32m[✓][0m	4201 187 has taken a fork
+LOADING	[1;92m#[0m[1;92m#[0m[2K 3	[0;32mPass[0m	[0;32m[✓][0m	4201 181 is thinking
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 4	[0;32mPass[0m	[0;32m[✓][0m	4200 199 is thinking
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 5	[0;32mPass[0m	[0;32m[✓][0m	4201 25 is sleeping
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 6	[0;32mPass[0m	[0;32m[✓][0m	4200 195 has taken a fork
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 7	[0;32mPass[0m	[0;32m[✓][0m	4201 198 is sleeping
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 8	[0;32mPass[0m	[0;32m[✓][0m	4200 197 has taken a fork
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 9	[0;32mPass[0m	[0;32m[✓][0m	4201 199 has taken a fork
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 10	[0;32mPass[0m	[0;32m[✓][0m	4201 186 is sleeping
+	[0;32m100 % correct[0m
+____________________________________________
+	[0;33m199 601 200 200 10[0m
+LOADING	[2K 1	[0;32mPass[0m	[0;32m[✓][0m	4201 22 has taken a fork
+LOADING	[1;92m#[0m[2K 2	[0;32mPass[0m	[0;32m[✓][0m	4201 191 has taken a fork
+LOADING	[1;92m#[0m[1;92m#[0m[2K 3	[0;32mPass[0m	[0;32m[✓][0m	4201 187 has taken a fork
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 4	[0;32mPass[0m	[0;32m[✓][0m	4201 20 has taken a fork
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 5	[0;32mPass[0m	[0;32m[✓][0m	4201 28 is thinking
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 6	[0;32mPass[0m	[0;32m[✓][0m	4201 191 has taken a fork
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 7	[0;32mPass[0m	[0;32m[✓][0m	4201 6 is thinking
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 8	[0;32mPass[0m	[0;32m[✓][0m	4200 185 is eating
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 9	[0;32mPass[0m	[0;32m[✓][0m	4200 179 is eating
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 10	[0;32mPass[0m	[0;32m[✓][0m	4201 11 is sleeping
+	[0;32m100 % correct[0m
+____________________________________________
+[0;36mTesting even numbers - they shouldn't die[0m
+	[0;33m4 410 200 100 10[0m
+LOADING	[2K 1	[0;32mPass[0m	[0;32m[✓][0m	4000 2 is sleeping
+LOADING	[1;92m#[0m[2K 2	[0;32mPass[0m	[0;32m[✓][0m	4000 3 has taken a fork
+LOADING	[1;92m#[0m[1;92m#[0m[2K 3	[0;32mPass[0m	[0;32m[✓][0m	4000 1 has taken a fork
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 4	[0;32mPass[0m	[0;32m[✓][0m	4000 2 is sleeping
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 5	[0;32mPass[0m	[0;32m[✓][0m	4000 4 is sleeping
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 6	[0;32mPass[0m	[0;32m[✓][0m	4000 1 has taken a fork
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 7	[0;32mPass[0m	[0;32m[✓][0m	4000 3 has taken a fork
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 8	[0;32mPass[0m	[0;32m[✓][0m	4000 3 has taken a fork
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 9	[0;32mPass[0m	[0;32m[✓][0m	4000 2 is sleeping
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 10	[0;32mPass[0m	[0;32m[✓][0m	4000 3 has taken a fork
+	[0;32m100 % correct[0m
+____________________________________________
+	[0;33m4 410 200 200 10[0m
+LOADING	[2K 1	[0;32mPass[0m	[0;32m[✓][0m	4000 4 is sleeping
+LOADING	[1;92m#[0m[2K 2	[0;32mPass[0m	[0;32m[✓][0m	4000 3 is thinking
+LOADING	[1;92m#[0m[1;92m#[0m[2K 3	[0;32mPass[0m	[0;32m[✓][0m	4000 4 is sleeping
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 4	[0;32mPass[0m	[0;32m[✓][0m	4000 1 is thinking
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 5	[0;32mPass[0m	[0;32m[✓][0m	4000 2 is sleeping
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 6	[0;32mPass[0m	[0;32m[✓][0m	4000 3 has taken a fork
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 7	[0;32mPass[0m	[0;32m[✓][0m	4000 3 has taken a fork
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 8	[0;32mPass[0m	[0;32m[✓][0m	4000 3 has taken a fork
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 9	[0;32mPass[0m	[0;32m[✓][0m	4000 2 is sleeping
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 10	[0;32mPass[0m	[0;32m[✓][0m	4000 1 is thinking
+	[0;32m100 % correct[0m
+____________________________________________
+	[0;33m198 610 200 200 10[0m
+LOADING	[2K 1	[0;32mPass[0m	[0;32m[✓][0m	4006 188 is sleeping
+LOADING	[1;92m#[0m[2K 2	[0;32mPass[0m	[0;32m[✓][0m	4005 156 is sleeping
+LOADING	[1;92m#[0m[1;92m#[0m[2K 3	[0;32mPass[0m	[0;32m[✓][0m	4005 151 is eating
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 4	[0;32mPass[0m	[0;32m[✓][0m	4006 192 is sleeping
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 5	[0;32mPass[0m	[0;32m[✓][0m	4006 1 is eating
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 6	[0;32mPass[0m	[0;32m[✓][0m	4005 187 has taken a fork
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 7	[0;32mPass[0m	[0;32m[✓][0m	4005 15 is eating
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 8	[0;32mPass[0m	[0;32m[✓][0m	4006 19 has taken a fork
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 9	[0;32mPass[0m	[0;32m[✓][0m	4005 171 has taken a fork
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 10	[0;32mPass[0m	[0;32m[✓][0m	4006 169 has taken a fork
+	[0;32m100 % correct[0m
+____________________________________________
+	[0;33m198 800 200 200 10[0m
+LOADING	[2K 1	[0;32mPass[0m	[0;32m[✓][0m	4006 175 has taken a fork
+LOADING	[1;92m#[0m[2K 2	[0;32mPass[0m	[0;32m[✓][0m	4005 176 is sleeping
+LOADING	[1;92m#[0m[1;92m#[0m[2K 3	[0;32mPass[0m	[0;32m[✓][0m	4006 9 has taken a fork
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 4	[0;32mPass[0m	[0;32m[✓][0m	4007 17 has taken a fork
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 5	[0;32mPass[0m	[0;32m[✓][0m	4006 169 has taken a fork
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 6	[0;32mPass[0m	[0;32m[✓][0m	4006 181 has taken a fork
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 7	[0;32mPass[0m	[0;32m[✓][0m	4007 187 has taken a fork
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 8	[0;32mPass[0m	[0;32m[✓][0m	4006 171 has taken a fork
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 9	[0;32mPass[0m	[0;32m[✓][0m	4006 178 is sleeping
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 10	[0;32mPass[0m	[0;32m[✓][0m	4006 13 is thinking
+	[0;32m100 % correct[0m
+____________________________________________
+[0;36mTesting even numbers (overkill) - they shouldn't die[0m
+	[0;33m50 410 200 100 10[0m
+LOADING	[2K 1	[0;32mPass[0m	[0;32m[✓][0m	4001 25 has taken a fork
+LOADING	[1;92m#[0m[2K 2	[0;32mPass[0m	[0;32m[✓][0m	4002 39 has taken a fork
+LOADING	[1;92m#[0m[1;92m#[0m[2K 3	[0;32mPass[0m	[0;32m[✓][0m	4002 35 has taken a fork
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 4	[0;32mPass[0m	[0;32m[✓][0m	4002 37 is eating
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 5	[0;32mPass[0m	[0;32m[✓][0m	4001 21 has taken a fork
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 6	[0;32mPass[0m	[0;32m[✓][0m	4002 2 is sleeping
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 7	[0;32mPass[0m	[0;32m[✓][0m	4002 1 has taken a fork
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 8	[0;32mPass[0m	[0;32m[✓][0m	4002 3 has taken a fork
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 9	[0;32mPass[0m	[0;32m[✓][0m	4001 45 has taken a fork
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 10	[0;32mPass[0m	[0;32m[✓][0m	4002 15 has taken a fork
+	[0;32m100 % correct[0m
+____________________________________________
+	[0;33m50 410 200 200 10[0m
+LOADING	[2K 1	[0;32mPass[0m	[0;32m[✓][0m	4002 45 is thinking
+LOADING	[1;92m#[0m[2K 2	[0;32mPass[0m	[0;32m[✓][0m	4002 21 is thinking
+LOADING	[1;92m#[0m[1;92m#[0m[2K 3	[0;32mPass[0m	[0;32m[✓][0m	4002 13 has taken a fork
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 4	[0;32mPass[0m	[0;32m[✓][0m	4002 47 has taken a fork
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 5	[0;32mPass[0m	[0;32m[✓][0m	4002 39 is eating
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 6	[0;32mPass[0m	[0;32m[✓][0m	4002 33 has taken a fork
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 7	[0;32mPass[0m	[0;32m[✓][0m	4002 49 has taken a fork
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 8	[0;32mPass[0m	[0;32m[✓][0m	4001 11 is eating
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 9	[0;32mPass[0m	[0;32m[✓][0m	4002 5 is eating
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 10	[0;32mPass[0m	[0;32m[✓][0m	4001 47 is eating
+	[0;32m100 % correct[0m
+____________________________________________
+	[0;33m50 405 200 200 10[0m
+LOADING	[2K 1	[0;32mPass[0m	[0;32m[✓][0m	4002 41 has taken a fork
+LOADING	[1;92m#[0m[2K 2	[0;32mPass[0m	[0;32m[✓][0m	4001 31 has taken a fork
+LOADING	[1;92m#[0m[1;92m#[0m[2K 3	[0;32mPass[0m	[0;32m[✓][0m	4001 29 has taken a fork
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 4	[0;32mPass[0m	[0;32m[✓][0m	4002 27 is thinking
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 5	[0;32mPass[0m	[0;32m[✓][0m	4001 49 has taken a fork
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 6	[0;32mPass[0m	[0;32m[✓][0m	4002 15 is eating
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 7	[0;32mPass[0m	[0;32m[✓][0m	4002 47 has taken a fork
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 8	[0;32mPass[0m	[0;32m[✓][0m	4001 25 has taken a fork
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 9	[0;32mPass[0m	[0;32m[✓][0m	4002 29 has taken a fork
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 10	[0;32mPass[0m	[0;32m[✓][0m	4002 37 is eating
+	[0;32m100 % correct[0m
+____________________________________________
+	[0;33m50 401 200 200 10[0m
+LOADING	[2K 1	[0;31mFail[0m	[0;31m[x][0m	402 27 died
+LOADING	[1;92m#[0m[2K 2	[0;32mPass[0m	[0;32m[✓][0m	401 46 is sleeping
+LOADING	[1;92m#[0m[1;92m#[0m[2K 3	[0;32mPass[0m	[0;32m[✓][0m	401 8 is sleeping
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 4	[0;31mFail[0m	[0;31m[x][0m	401 1 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 5	[0;31mFail[0m	[0;31m[x][0m	401 23 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 6	[0;31mFail[0m	[0;31m[x][0m	402 1 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 7	[0;31mFail[0m	[0;31m[x][0m	401 1 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 8	[0;31mFail[0m	[0;31m[x][0m	401 13 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 9	[0;31mFail[0m	[0;31m[x][0m	401 1 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 10	[0;31mFail[0m	[0;31m[x][0m	401 23 died
+	[0;31m20 % correct[0m
+____________________________________________
+	[0;33m130 410 200 100 10[0m
+LOADING	[2K 1	[0;32mPass[0m	[0;32m[✓][0m	4005 10 is sleeping
+LOADING	[1;92m#[0m[2K 2	[0;32mPass[0m	[0;32m[✓][0m	4004 5 is eating
+LOADING	[1;92m#[0m[1;92m#[0m[2K 3	[0;32mPass[0m	[0;32m[✓][0m	4005 116 is sleeping
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 4	[0;32mPass[0m	[0;32m[✓][0m	4004 9 is eating
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 5	[0;32mPass[0m	[0;32m[✓][0m	4004 9 has taken a fork
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 6	[0;32mPass[0m	[0;32m[✓][0m	4004 102 is sleeping
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 7	[0;32mPass[0m	[0;32m[✓][0m	4004 111 is eating
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 8	[0;32mPass[0m	[0;32m[✓][0m	4004 81 has taken a fork
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 9	[0;32mPass[0m	[0;32m[✓][0m	4004 105 has taken a fork
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 10	[0;32mPass[0m	[0;32m[✓][0m	4004 109 has taken a fork
+	[0;32m100 % correct[0m
+____________________________________________
+	[0;33m130 410 200 200 10[0m
+LOADING	[2K 1	[0;32mPass[0m	[0;32m[✓][0m	4003 13 is thinking
+LOADING	[1;92m#[0m[2K 2	[0;32mPass[0m	[0;32m[✓][0m	4004 4 is sleeping
+LOADING	[1;92m#[0m[1;92m#[0m[2K 3	[0;32mPass[0m	[0;32m[✓][0m	4006 100 is sleeping
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 4	[0;32mPass[0m	[0;32m[✓][0m	4004 129 is thinking
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 5	[0;32mPass[0m	[0;32m[✓][0m	4004 107 is eating
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 6	[0;32mPass[0m	[0;32m[✓][0m	4004 101 has taken a fork
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 7	[0;32mPass[0m	[0;32m[✓][0m	4004 19 has taken a fork
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 8	[0;32mPass[0m	[0;32m[✓][0m	4004 125 is thinking
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 9	[0;32mPass[0m	[0;32m[✓][0m	4004 13 is eating
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 10	[0;32mPass[0m	[0;32m[✓][0m	4004 123 is thinking
+	[0;32m100 % correct[0m
+____________________________________________
+	[0;33m130 405 200 200 10[0m
+LOADING	[2K 1	[0;32mPass[0m	[0;32m[✓][0m	4004 17 has taken a fork
+LOADING	[1;92m#[0m[2K 2	[0;32mPass[0m	[0;32m[✓][0m	4004 1 is thinking
+LOADING	[1;92m#[0m[1;92m#[0m[2K 3	[0;32mPass[0m	[0;32m[✓][0m	4004 102 is sleeping
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 4	[0;32mPass[0m	[0;32m[✓][0m	4004 13 is eating
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 5	[0;32mPass[0m	[0;32m[✓][0m	4004 99 has taken a fork
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 6	[0;32mPass[0m	[0;32m[✓][0m	4004 123 is eating
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 7	[0;32mPass[0m	[0;32m[✓][0m	4004 93 is eating
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 8	[0;31mFail[0m	[0;31m[x][0m	405 1 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 9	[0;32mPass[0m	[0;32m[✓][0m	4004 17 has taken a fork
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 10	[0;31mFail[0m	[0;31m[x][0m	405 1 died
+	[0;33m80 % correct[0m
+____________________________________________
+	[0;33m130 401 200 200 10[0m
+LOADING	[2K 1	[0;32mPass[0m	[0;32m[✓][0m	402 61 is eating
+LOADING	[1;92m#[0m[2K 2	[0;31mFail[0m	[0;31m[x][0m	401 1 died
+LOADING	[1;92m#[0m[1;92m#[0m[2K 3	[0;31mFail[0m	[0;31m[x][0m	401 1 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 4	[0;31mFail[0m	[0;31m[x][0m	401 1 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 5	[0;31mFail[0m	[0;31m[x][0m	401 1 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 6	[0;31mFail[0m	[0;31m[x][0m	401 1 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 7	[0;31mFail[0m	[0;31m[x][0m	401 11 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 8	[0;31mFail[0m	[0;31m[x][0m	402 1 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 9	[0;31mFail[0m	[0;31m[x][0m	401 1 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 10	[0;31mFail[0m	[0;31m[x][0m	401 1 died
+	[0;31m10 % correct[0m
+____________________________________________
+	[0;33m198 410 200 100 10[0m
+LOADING	[2K 1	[0;32mPass[0m	[0;32m[✓][0m	4006 173 is eating
+LOADING	[1;92m#[0m[2K 2	[0;32mPass[0m	[0;32m[✓][0m	4006 12 is sleeping
+LOADING	[1;92m#[0m[1;92m#[0m[2K 3	[0;32mPass[0m	[0;32m[✓][0m	4006 3 has taken a fork
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 4	[0;32mPass[0m	[0;32m[✓][0m	4006 7 has taken a fork
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 5	[0;32mPass[0m	[0;32m[✓][0m	4007 188 is sleeping
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 6	[0;32mPass[0m	[0;32m[✓][0m	4005 147 has taken a fork
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 7	[0;32mPass[0m	[0;32m[✓][0m	4006 197 is eating
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 8	[0;32mPass[0m	[0;32m[✓][0m	4006 196 is sleeping
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 9	[0;32mPass[0m	[0;32m[✓][0m	4006 12 is sleeping
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 10	[0;32mPass[0m	[0;32m[✓][0m	4005 187 has taken a fork
+	[0;32m100 % correct[0m
+____________________________________________
+	[0;33m198 410 200 200 10[0m
+LOADING	[2K 1	[0;32mPass[0m	[0;32m[✓][0m	4006 6 is sleeping
+LOADING	[1;92m#[0m[2K 2	[0;32mPass[0m	[0;32m[✓][0m	4006 186 is sleeping
+LOADING	[1;92m#[0m[1;92m#[0m[2K 3	[0;32mPass[0m	[0;32m[✓][0m	4006 177 has taken a fork
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 4	[0;32mPass[0m	[0;32m[✓][0m	4006 11 has taken a fork
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 5	[0;32mPass[0m	[0;32m[✓][0m	4006 3 is eating
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 6	[0;32mPass[0m	[0;32m[✓][0m	4006 5 is eating
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 7	[0;32mPass[0m	[0;32m[✓][0m	4006 189 has taken a fork
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 8	[0;32mPass[0m	[0;32m[✓][0m	4005 179 is thinking
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 9	[0;32mPass[0m	[0;32m[✓][0m	4005 180 is sleeping
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 10	[0;32mPass[0m	[0;32m[✓][0m	4005 162 is sleeping
+	[0;32m100 % correct[0m
+____________________________________________
+	[0;33m198 405 200 200 10[0m
+LOADING	[2K 1	[0;32mPass[0m	[0;32m[✓][0m	4004 158 is sleeping
+LOADING	[1;92m#[0m[2K 2	[0;31mFail[0m	[0;31m[x][0m	406 1 died
+LOADING	[1;92m#[0m[1;92m#[0m[2K 3	[0;31mFail[0m	[0;31m[x][0m	405 1 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 4	[0;31mFail[0m	[0;31m[x][0m	405 1 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 5	[0;31mFail[0m	[0;31m[x][0m	405 1 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 6	[0;31mFail[0m	[0;31m[x][0m	405 1 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 7	[0;31mFail[0m	[0;31m[x][0m	406 1 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 8	[0;31mFail[0m	[0;31m[x][0m	405 1 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 9	[0;31mFail[0m	[0;31m[x][0m	405 1 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 10	[0;31mFail[0m	[0;31m[x][0m	405 1 died
+	[0;31m10 % correct[0m
+____________________________________________
+	[0;33m198 401 200 200 10[0m
+LOADING	[2K 1	[0;31mFail[0m	[0;31m[x][0m	401 1 died
+LOADING	[1;92m#[0m[2K 2	[0;31mFail[0m	[0;31m[x][0m	401 1 died
+LOADING	[1;92m#[0m[1;92m#[0m[2K 3	[0;32mPass[0m	[0;32m[✓][0m	401 33 is thinking
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 4	[0;31mFail[0m	[0;31m[x][0m	401 1 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 5	[0;31mFail[0m	[0;31m[x][0m	401 1 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 6	[0;31mFail[0m	[0;31m[x][0m	401 1 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 7	[0;31mFail[0m	[0;31m[x][0m	401 1 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 8	[0;32mPass[0m	[0;32m[✓][0m	401 13 is thinking
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 9	[0;31mFail[0m	[0;31m[x][0m	401 1 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 10	[0;31mFail[0m	[0;31m[x][0m	401 13 died
+	[0;31m20 % correct[0m
+____________________________________________
+[0;36mTesting uneven numbers - one should die[0m
+	[0;33m4 310 200 100 10[0m
+LOADING	[2K 1	[0;32mPass[0m	[0;32m[✓][0m	311 1 died
+LOADING	[1;92m#[0m[2K 2	[0;32mPass[0m	[0;32m[✓][0m	310 1 died
+LOADING	[1;92m#[0m[1;92m#[0m[2K 3	[0;32mPass[0m	[0;32m[✓][0m	310 1 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 4	[0;32mPass[0m	[0;32m[✓][0m	310 1 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 5	[0;32mPass[0m	[0;32m[✓][0m	310 3 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 6	[0;32mPass[0m	[0;32m[✓][0m	310 1 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 7	[0;32mPass[0m	[0;32m[✓][0m	310 1 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 8	[0;32mPass[0m	[0;32m[✓][0m	310 3 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 9	[0;32mPass[0m	[0;32m[✓][0m	310 3 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 10	[0;32mPass[0m	[0;32m[✓][0m	311 3 died
+	[0;32m100 % correct[0m
+____________________________________________
+	[0;33m1 800 200 100 10[0m
+LOADING	[2K 1	[0;32mPass[0m	[0;32m[✓][0m	800 1 died
+LOADING	[1;92m#[0m[2K 2	[0;32mPass[0m	[0;32m[✓][0m	800 1 died
+LOADING	[1;92m#[0m[1;92m#[0m[2K 3	[0;32mPass[0m	[0;32m[✓][0m	800 1 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 4	[0;32mPass[0m	[0;32m[✓][0m	800 1 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 5	[0;32mPass[0m	[0;32m[✓][0m	800 1 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 6	[0;32mPass[0m	[0;32m[✓][0m	800 1 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 7	[0;32mPass[0m	[0;32m[✓][0m	800 1 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 8	[0;32mPass[0m	[0;32m[✓][0m	800 1 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 9	[0;32mPass[0m	[0;32m[✓][0m	800 1 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 10	[0;32mPass[0m	[0;32m[✓][0m	800 1 died
+	[0;32m100 % correct[0m
+____________________________________________
+[0;36mTesting uneven numbers - one should die[0m
+	[0;33m3 596 200 200 10[0m
+LOADING	[2K 1	[0;32mPass[0m	[0;32m[✓][0m	596 2 died
+LOADING	[1;92m#[0m[2K 2	[0;32mPass[0m	[0;32m[✓][0m	597 2 died
+LOADING	[1;92m#[0m[1;92m#[0m[2K 3	[0;32mPass[0m	[0;32m[✓][0m	596 2 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 4	[0;32mPass[0m	[0;32m[✓][0m	596 2 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 5	[0;32mPass[0m	[0;32m[✓][0m	596 2 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 6	[0;32mPass[0m	[0;32m[✓][0m	596 2 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 7	[0;32mPass[0m	[0;32m[✓][0m	596 2 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 8	[0;32mPass[0m	[0;32m[✓][0m	596 2 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 9	[0;32mPass[0m	[0;32m[✓][0m	596 2 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 10	[0;32mPass[0m	[0;32m[✓][0m	596 2 died
+	[0;32m100 % correct[0m
+____________________________________________
+	[0;33m3 599 200 200 10[0m
+LOADING	[2K 1	[0;32mPass[0m	[0;32m[✓][0m	600 2 died
+LOADING	[1;92m#[0m[2K 2	[0;32mPass[0m	[0;32m[✓][0m	599 2 died
+LOADING	[1;92m#[0m[1;92m#[0m[2K 3	[0;32mPass[0m	[0;32m[✓][0m	599 2 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 4	[0;32mPass[0m	[0;32m[✓][0m	599 2 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 5	[0;32mPass[0m	[0;32m[✓][0m	599 2 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 6	[0;32mPass[0m	[0;32m[✓][0m	599 2 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 7	[0;32mPass[0m	[0;32m[✓][0m	599 2 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 8	[0;32mPass[0m	[0;32m[✓][0m	599 2 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 9	[0;32mPass[0m	[0;32m[✓][0m	599 2 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 10	[0;32mPass[0m	[0;32m[✓][0m	599 2 died
+	[0;32m100 % correct[0m
+____________________________________________
+	[0;33m3 600 200 200 10[0m
+LOADING	[2K 1	[0;32mPass[0m	[0;32m[✓][0m	600 2 died
+LOADING	[1;92m#[0m[2K 2	[0;32mPass[0m	[0;32m[✓][0m	600 2 died
+LOADING	[1;92m#[0m[1;92m#[0m[2K 3	[0;32mPass[0m	[0;32m[✓][0m	601 1 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 4	[0;32mPass[0m	[0;32m[✓][0m	600 2 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 5	[0;32mPass[0m	[0;32m[✓][0m	601 2 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 6	[0;32mPass[0m	[0;32m[✓][0m	600 2 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 7	[0;32mPass[0m	[0;32m[✓][0m	600 2 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 8	[0;32mPass[0m	[0;32m[✓][0m	600 2 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 9	[0;32mPass[0m	[0;32m[✓][0m	600 2 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 10	[0;32mPass[0m	[0;32m[✓][0m	600 2 died
+	[0;32m100 % correct[0m
+____________________________________________
+	[0;33m31 596 200 200 10[0m
+LOADING	[2K 1	[0;32mPass[0m	[0;32m[✓][0m	597 29 died
+LOADING	[1;92m#[0m[2K 2	[0;32mPass[0m	[0;32m[✓][0m	597 29 died
+LOADING	[1;92m#[0m[1;92m#[0m[2K 3	[0;32mPass[0m	[0;32m[✓][0m	597 29 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 4	[0;32mPass[0m	[0;32m[✓][0m	597 29 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 5	[0;32mPass[0m	[0;32m[✓][0m	597 29 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 6	[0;32mPass[0m	[0;32m[✓][0m	597 29 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 7	[0;32mPass[0m	[0;32m[✓][0m	597 29 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 8	[0;32mPass[0m	[0;32m[✓][0m	597 29 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 9	[0;32mPass[0m	[0;32m[✓][0m	597 1 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 10	[0;32mPass[0m	[0;32m[✓][0m	597 29 died
+	[0;32m100 % correct[0m
+____________________________________________
+	[0;33m31 599 200 200 10[0m
+LOADING	[2K 1	[0;32mPass[0m	[0;32m[✓][0m	600 29 died
+LOADING	[1;92m#[0m[2K 2	[0;32mPass[0m	[0;32m[✓][0m	600 29 died
+LOADING	[1;92m#[0m[1;92m#[0m[2K 3	[0;32mPass[0m	[0;32m[✓][0m	599 1 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 4	[0;32mPass[0m	[0;32m[✓][0m	601 29 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 5	[0;32mPass[0m	[0;32m[✓][0m	600 29 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 6	[0;32mPass[0m	[0;32m[✓][0m	600 29 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 7	[0;32mPass[0m	[0;32m[✓][0m	600 29 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 8	[0;32mPass[0m	[0;32m[✓][0m	600 29 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 9	[0;32mPass[0m	[0;32m[✓][0m	600 29 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 10	[0;32mPass[0m	[0;32m[✓][0m	601 29 died
+	[0;32m100 % correct[0m
+____________________________________________
+	[0;33m31 600 200 200 10[0m
+LOADING	[2K 1	[0;31mFail[0m	[0;31m[x][0m	4201 10 has taken a fork
+LOADING	[1;92m#[0m[2K 2	[0;32mPass[0m	[0;32m[✓][0m	600 29 died
+LOADING	[1;92m#[0m[1;92m#[0m[2K 3	[0;31mFail[0m	[0;31m[x][0m	4200 11 is eating
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 4	[0;31mFail[0m	[0;31m[x][0m	4201 29 is eating
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 5	[0;31mFail[0m	[0;31m[x][0m	4200 19 is eating
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 6	[0;31mFail[0m	[0;31m[x][0m	4201 24 is sleeping
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 7	[0;31mFail[0m	[0;31m[x][0m	4201 30 is sleeping
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 8	[0;31mFail[0m	[0;31m[x][0m	4201 2 is eating
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 9	[0;31mFail[0m	[0;31m[x][0m	4200 29 is thinking
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 10	[0;31mFail[0m	[0;31m[x][0m	4201 10 has taken a fork
+	[0;31m10 % correct[0m
+____________________________________________
+	[0;33m131 596 200 200 10[0m
+LOADING	[2K 1	[0;32mPass[0m	[0;32m[✓][0m	600 129 died
+LOADING	[1;92m#[0m[2K 2	[0;32mPass[0m	[0;32m[✓][0m	601 129 died
+LOADING	[1;92m#[0m[1;92m#[0m[2K 3	[0;32mPass[0m	[0;32m[✓][0m	600 129 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 4	[0;32mPass[0m	[0;32m[✓][0m	600 129 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 5	[0;31mFail[0m	[0;31m[x][0m	600 6 is thinking
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 6	[0;32mPass[0m	[0;32m[✓][0m	600 129 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 7	[0;32mPass[0m	[0;32m[✓][0m	600 129 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 8	[0;32mPass[0m	[0;32m[✓][0m	600 129 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 9	[0;32mPass[0m	[0;32m[✓][0m	600 129 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 10	[0;31mFail[0m	[0;31m[x][0m	600 3 is sleeping
+	[0;33m80 % correct[0m
+____________________________________________
+	[0;33m131 599 200 200 10[0m
+LOADING	[2K 1	[0;31mFail[0m	[0;31m[x][0m	4201 129 has taken a fork
+LOADING	[1;92m#[0m[2K 2	[0;31mFail[0m	[0;31m[x][0m	4201 28 is thinking
+LOADING	[1;92m#[0m[1;92m#[0m[2K 3	[0;31mFail[0m	[0;31m[x][0m	4201 10 has taken a fork
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 4	[0;31mFail[0m	[0;31m[x][0m	4201 122 is sleeping
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 5	[0;31mFail[0m	[0;31m[x][0m	4200 121 is eating
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 6	[0;31mFail[0m	[0;31m[x][0m	4201 5 is sleeping
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 7	[0;31mFail[0m	[0;31m[x][0m	4200 129 is eating
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 8	[0;31mFail[0m	[0;31m[x][0m	4201 1 is sleeping
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 9	[0;31mFail[0m	[0;31m[x][0m	4201 23 is sleeping
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 10	[0;31mFail[0m	[0;31m[x][0m	4201 126 is sleeping
+	[0;31m0 % correct[0m
+____________________________________________
+	[0;33m131 600 200 200 10[0m
+LOADING	[2K 1	[0;31mFail[0m	[0;31m[x][0m	4200 118 is sleeping
+LOADING	[1;92m#[0m[2K 2	[0;31mFail[0m	[0;31m[x][0m	4201 17 is sleeping
+LOADING	[1;92m#[0m[1;92m#[0m[2K 3	[0;31mFail[0m	[0;31m[x][0m	4201 111 has taken a fork
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 4	[0;31mFail[0m	[0;31m[x][0m	4200 6 has taken a fork
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 5	[0;31mFail[0m	[0;31m[x][0m	4201 14 is thinking
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 6	[0;31mFail[0m	[0;31m[x][0m	4201 127 is eating
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 7	[0;31mFail[0m	[0;31m[x][0m	4200 124 is sleeping
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 8	[0;31mFail[0m	[0;31m[x][0m	4201 25 is sleeping
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 9	[0;31mFail[0m	[0;31m[x][0m	4201 125 has taken a fork
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 10	[0;31mFail[0m	[0;31m[x][0m	4200 6 has taken a fork
+	[0;31m0 % correct[0m
+____________________________________________
+	[0;33m199 596 200 200 10[0m
+LOADING	[2K 1	[0;31mFail[0m	[0;31m[x][0m	4200 198 is sleeping
+LOADING	[1;92m#[0m[2K 2	[0;31mFail[0m	[0;31m[x][0m	4201 11 is sleeping
+LOADING	[1;92m#[0m[1;92m#[0m[2K 3	[0;31mFail[0m	[0;31m[x][0m	4201 14 has taken a fork
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 4	[0;31mFail[0m	[0;31m[x][0m	4201 199 has taken a fork
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 5	[0;31mFail[0m	[0;31m[x][0m	4201 191 has taken a fork
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 6	[0;31mFail[0m	[0;31m[x][0m	4201 195 is eating
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 7	[0;31mFail[0m	[0;31m[x][0m	4200 193 has taken a fork
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 8	[0;31mFail[0m	[0;31m[x][0m	4201 189 has taken a fork
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 9	[0;31mFail[0m	[0;31m[x][0m	4201 196 is sleeping
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 10	[0;31mFail[0m	[0;31m[x][0m	4201 197 has taken a fork
+	[0;31m0 % correct[0m
+____________________________________________
+	[0;33m199 599 200 200 10[0m
+LOADING	[2K 1	[0;31mFail[0m	[0;31m[x][0m	4201 2 has taken a fork
+LOADING	[1;92m#[0m[2K 2	[0;31mFail[0m	[0;31m[x][0m	4201 189 has taken a fork
+LOADING	[1;92m#[0m[1;92m#[0m[2K 3	[0;31mFail[0m	[0;31m[x][0m	4201 187 has taken a fork
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 4	[0;31mFail[0m	[0;31m[x][0m	4200 1 is sleeping
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 5	[0;31mFail[0m	[0;31m[x][0m	4200 192 is sleeping
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 6	[0;31mFail[0m	[0;31m[x][0m	4200 187 has taken a fork
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 7	[0;31mFail[0m	[0;31m[x][0m	4200 181 has taken a fork
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 8	[0;31mFail[0m	[0;31m[x][0m	4201 186 is sleeping
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 9	[0;31mFail[0m	[0;31m[x][0m	4201 27 is sleeping
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 10	[0;31mFail[0m	[0;31m[x][0m	4201 12 has taken a fork
+	[0;31m0 % correct[0m
+____________________________________________
+	[0;33m199 600 200 200 10[0m
+LOADING	[2K 1	[0;31mFail[0m	[0;31m[x][0m	4201 189 is thinking
+LOADING	[1;92m#[0m[2K 2	[0;31mFail[0m	[0;31m[x][0m	4201 197 has taken a fork
+LOADING	[1;92m#[0m[1;92m#[0m[2K 3	[0;31mFail[0m	[0;31m[x][0m	4200 193 has taken a fork
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 4	[0;31mFail[0m	[0;31m[x][0m	4201 1 is sleeping
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 5	[0;31mFail[0m	[0;31m[x][0m	4200 3 is sleeping
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 6	[0;31mFail[0m	[0;31m[x][0m	4201 198 is sleeping
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 7	[0;31mFail[0m	[0;31m[x][0m	4201 17 is sleeping
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 8	[0;31mFail[0m	[0;31m[x][0m	4200 197 has taken a fork
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 9	[0;31mFail[0m	[0;31m[x][0m	4201 10 has taken a fork
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 10	[0;31mFail[0m	[0;31m[x][0m	4200 190 is sleeping
+	[0;31m0 % correct[0m
+____________________________________________
+[0;36mTesting even numbers - one should die[0m
+	[0;33m3 599 200 200 10[0m
+LOADING	[2K 1	[0;32mPass[0m	[0;32m[✓][0m	599 2 died
+LOADING	[1;92m#[0m[2K 2	[0;32mPass[0m	[0;32m[✓][0m	599 2 died
+LOADING	[1;92m#[0m[1;92m#[0m[2K 3	[0;32mPass[0m	[0;32m[✓][0m	599 2 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 4	[0;32mPass[0m	[0;32m[✓][0m	599 2 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 5	[0;32mPass[0m	[0;32m[✓][0m	599 2 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 6	[0;32mPass[0m	[0;32m[✓][0m	599 2 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 7	[0;32mPass[0m	[0;32m[✓][0m	599 2 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 8	[0;32mPass[0m	[0;32m[✓][0m	599 2 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 9	[0;32mPass[0m	[0;32m[✓][0m	599 2 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 10	[0;32mPass[0m	[0;32m[✓][0m	599 2 died
+	[0;32m100 % correct[0m
+____________________________________________
+	[0;33m31 599 200 200 10[0m
+LOADING	[2K 1	[0;32mPass[0m	[0;32m[✓][0m	600 29 died
+LOADING	[1;92m#[0m[2K 2	[0;32mPass[0m	[0;32m[✓][0m	600 29 died
+LOADING	[1;92m#[0m[1;92m#[0m[2K 3	[0;32mPass[0m	[0;32m[✓][0m	600 29 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 4	[0;32mPass[0m	[0;32m[✓][0m	600 29 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 5	[0;32mPass[0m	[0;32m[✓][0m	600 29 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 6	[0;32mPass[0m	[0;32m[✓][0m	600 1 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 7	[0;32mPass[0m	[0;32m[✓][0m	600 29 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 8	[0;32mPass[0m	[0;32m[✓][0m	599 1 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 9	[0;32mPass[0m	[0;32m[✓][0m	600 29 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 10	[0;32mPass[0m	[0;32m[✓][0m	600 29 died
+	[0;32m100 % correct[0m
+____________________________________________
+	[0;33m131 596 200 200 10[0m
+LOADING	[2K 1	[0;32mPass[0m	[0;32m[✓][0m	600 129 died
+LOADING	[1;92m#[0m[2K 2	[0;32mPass[0m	[0;32m[✓][0m	600 129 died
+LOADING	[1;92m#[0m[1;92m#[0m[2K 3	[0;32mPass[0m	[0;32m[✓][0m	600 129 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 4	[0;32mPass[0m	[0;32m[✓][0m	600 129 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 5	[0;32mPass[0m	[0;32m[✓][0m	600 129 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 6	[0;32mPass[0m	[0;32m[✓][0m	600 129 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 7	[0;32mPass[0m	[0;32m[✓][0m	600 129 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 8	[0;32mPass[0m	[0;32m[✓][0m	601 129 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 9	[0;32mPass[0m	[0;32m[✓][0m	600 129 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 10	[0;32mPass[0m	[0;32m[✓][0m	600 129 died
+	[0;32m100 % correct[0m
+____________________________________________
+[0;36mTesting even numbers - one should die[0m
+	[0;33m4 310 200 100 10[0m
+LOADING	[2K 1	[0;32mPass[0m	[0;32m[✓][0m	310 1 died
+LOADING	[1;92m#[0m[2K 2	[0;32mPass[0m	[0;32m[✓][0m	310 3 died
+LOADING	[1;92m#[0m[1;92m#[0m[2K 3	[0;32mPass[0m	[0;32m[✓][0m	310 3 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 4	[0;32mPass[0m	[0;32m[✓][0m	310 3 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 5	[0;32mPass[0m	[0;32m[✓][0m	310 3 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 6	[0;32mPass[0m	[0;32m[✓][0m	310 3 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 7	[0;32mPass[0m	[0;32m[✓][0m	310 1 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 8	[0;32mPass[0m	[0;32m[✓][0m	310 1 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 9	[0;32mPass[0m	[0;32m[✓][0m	310 3 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 10	[0;32mPass[0m	[0;32m[✓][0m	311 3 died
+	[0;32m100 % correct[0m
+____________________________________________
+	[0;33m50 396 200 200 10[0m
+LOADING	[2K 1	[0;32mPass[0m	[0;32m[✓][0m	396 5 died
+LOADING	[1;92m#[0m[2K 2	[0;32mPass[0m	[0;32m[✓][0m	397 19 died
+LOADING	[1;92m#[0m[1;92m#[0m[2K 3	[0;32mPass[0m	[0;32m[✓][0m	396 5 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 4	[0;32mPass[0m	[0;32m[✓][0m	396 1 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 5	[0;32mPass[0m	[0;32m[✓][0m	396 7 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 6	[0;32mPass[0m	[0;32m[✓][0m	396 1 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 7	[0;32mPass[0m	[0;32m[✓][0m	396 1 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 8	[0;32mPass[0m	[0;32m[✓][0m	396 1 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 9	[0;32mPass[0m	[0;32m[✓][0m	396 19 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 10	[0;32mPass[0m	[0;32m[✓][0m	396 1 died
+	[0;32m100 % correct[0m
+____________________________________________
+	[0;33m50 399 200 200 10[0m
+LOADING	[2K 1	[0;32mPass[0m	[0;32m[✓][0m	399 1 died
+LOADING	[1;92m#[0m[2K 2	[0;32mPass[0m	[0;32m[✓][0m	399 5 died
+LOADING	[1;92m#[0m[1;92m#[0m[2K 3	[0;32mPass[0m	[0;32m[✓][0m	399 7 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 4	[0;32mPass[0m	[0;32m[✓][0m	399 1 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 5	[0;32mPass[0m	[0;32m[✓][0m	399 3 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 6	[0;32mPass[0m	[0;32m[✓][0m	399 1 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 7	[0;32mPass[0m	[0;32m[✓][0m	399 1 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 8	[0;32mPass[0m	[0;32m[✓][0m	399 1 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 9	[0;32mPass[0m	[0;32m[✓][0m	399 1 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 10	[0;32mPass[0m	[0;32m[✓][0m	399 1 died
+	[0;32m100 % correct[0m
+____________________________________________
+	[0;33m50 400 200 200 10[0m
+LOADING	[2K 1	[0;32mPass[0m	[0;32m[✓][0m	400 1 died
+LOADING	[1;92m#[0m[2K 2	[0;32mPass[0m	[0;32m[✓][0m	400 3 died
+LOADING	[1;92m#[0m[1;92m#[0m[2K 3	[0;32mPass[0m	[0;32m[✓][0m	400 1 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 4	[0;32mPass[0m	[0;32m[✓][0m	401 1 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 5	[0;32mPass[0m	[0;32m[✓][0m	400 7 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 6	[0;32mPass[0m	[0;32m[✓][0m	400 1 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 7	[0;32mPass[0m	[0;32m[✓][0m	400 1 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 8	[0;32mPass[0m	[0;32m[✓][0m	401 5 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 9	[0;32mPass[0m	[0;32m[✓][0m	400 1 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 10	[0;32mPass[0m	[0;32m[✓][0m	400 1 died
+	[0;32m100 % correct[0m
+____________________________________________
+	[0;33m130 396 200 200 10[0m
+LOADING	[2K 1	[0;32mPass[0m	[0;32m[✓][0m	396 1 died
+LOADING	[1;92m#[0m[2K 2	[0;32mPass[0m	[0;32m[✓][0m	396 1 died
+LOADING	[1;92m#[0m[1;92m#[0m[2K 3	[0;32mPass[0m	[0;32m[✓][0m	396 1 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 4	[0;32mPass[0m	[0;32m[✓][0m	396 1 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 5	[0;32mPass[0m	[0;32m[✓][0m	396 5 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 6	[0;32mPass[0m	[0;32m[✓][0m	396 1 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 7	[0;32mPass[0m	[0;32m[✓][0m	396 1 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 8	[0;32mPass[0m	[0;32m[✓][0m	396 1 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 9	[0;32mPass[0m	[0;32m[✓][0m	396 11 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 10	[0;32mPass[0m	[0;32m[✓][0m	396 1 died
+	[0;32m100 % correct[0m
+____________________________________________
+	[0;33m130 399 200 200 10[0m
+LOADING	[2K 1	[0;32mPass[0m	[0;32m[✓][0m	399 15 died
+LOADING	[1;92m#[0m[2K 2	[0;32mPass[0m	[0;32m[✓][0m	399 1 died
+LOADING	[1;92m#[0m[1;92m#[0m[2K 3	[0;32mPass[0m	[0;32m[✓][0m	399 1 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 4	[0;32mPass[0m	[0;32m[✓][0m	399 1 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 5	[0;32mPass[0m	[0;32m[✓][0m	399 1 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 6	[0;32mPass[0m	[0;32m[✓][0m	399 1 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 7	[0;32mPass[0m	[0;32m[✓][0m	399 1 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 8	[0;32mPass[0m	[0;32m[✓][0m	399 1 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 9	[0;32mPass[0m	[0;32m[✓][0m	399 1 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 10	[0;32mPass[0m	[0;32m[✓][0m	399 1 died
+	[0;32m100 % correct[0m
+____________________________________________
+	[0;33m130 400 200 200 10[0m
+LOADING	[2K 1	[0;32mPass[0m	[0;32m[✓][0m	401 1 died
+LOADING	[1;92m#[0m[2K 2	[0;32mPass[0m	[0;32m[✓][0m	400 1 died
+LOADING	[1;92m#[0m[1;92m#[0m[2K 3	[0;32mPass[0m	[0;32m[✓][0m	400 1 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 4	[0;32mPass[0m	[0;32m[✓][0m	400 1 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 5	[0;32mPass[0m	[0;32m[✓][0m	400 1 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 6	[0;32mPass[0m	[0;32m[✓][0m	400 1 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 7	[0;32mPass[0m	[0;32m[✓][0m	400 1 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 8	[0;32mPass[0m	[0;32m[✓][0m	400 9 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 9	[0;32mPass[0m	[0;32m[✓][0m	400 1 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 10	[0;32mPass[0m	[0;32m[✓][0m	400 1 died
+	[0;32m100 % correct[0m
+____________________________________________
+	[0;33m198 396 200 200 10[0m
+LOADING	[2K 1	[0;32mPass[0m	[0;32m[✓][0m	397 1 died
+LOADING	[1;92m#[0m[2K 2	[0;32mPass[0m	[0;32m[✓][0m	396 1 died
+LOADING	[1;92m#[0m[1;92m#[0m[2K 3	[0;32mPass[0m	[0;32m[✓][0m	396 1 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 4	[0;32mPass[0m	[0;32m[✓][0m	396 1 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 5	[0;32mPass[0m	[0;32m[✓][0m	396 1 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 6	[0;32mPass[0m	[0;32m[✓][0m	397 21 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 7	[0;32mPass[0m	[0;32m[✓][0m	396 1 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 8	[0;32mPass[0m	[0;32m[✓][0m	396 1 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 9	[0;32mPass[0m	[0;32m[✓][0m	396 1 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 10	[0;32mPass[0m	[0;32m[✓][0m	396 1 died
+	[0;32m100 % correct[0m
+____________________________________________
+	[0;33m198 399 200 200 10[0m
+LOADING	[2K 1	[0;32mPass[0m	[0;32m[✓][0m	400 1 died
+LOADING	[1;92m#[0m[2K 2	[0;32mPass[0m	[0;32m[✓][0m	399 1 died
+LOADING	[1;92m#[0m[1;92m#[0m[2K 3	[0;32mPass[0m	[0;32m[✓][0m	400 1 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 4	[0;32mPass[0m	[0;32m[✓][0m	400 1 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 5	[0;32mPass[0m	[0;32m[✓][0m	399 1 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 6	[0;32mPass[0m	[0;32m[✓][0m	399 1 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 7	[0;32mPass[0m	[0;32m[✓][0m	399 1 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 8	[0;32mPass[0m	[0;32m[✓][0m	399 1 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 9	[0;32mPass[0m	[0;32m[✓][0m	399 1 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 10	[0;32mPass[0m	[0;32m[✓][0m	399 1 died
+	[0;32m100 % correct[0m
+____________________________________________
+	[0;33m198 400 200 200 10[0m
+LOADING	[2K 1	[0;32mPass[0m	[0;32m[✓][0m	401 1 died
+LOADING	[1;92m#[0m[2K 2	[0;32mPass[0m	[0;32m[✓][0m	400 1 died
+LOADING	[1;92m#[0m[1;92m#[0m[2K 3	[0;32mPass[0m	[0;32m[✓][0m	400 1 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 4	[0;32mPass[0m	[0;32m[✓][0m	401 15 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 5	[0;31mFail[0m	[0;31m[x][0m	400 12 is sleeping
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 6	[0;32mPass[0m	[0;32m[✓][0m	400 1 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 7	[0;32mPass[0m	[0;32m[✓][0m	400 1 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 8	[0;32mPass[0m	[0;32m[✓][0m	400 1 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 9	[0;32mPass[0m	[0;32m[✓][0m	400 1 died
+LOADING	[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[1;92m#[0m[2K 10	[0;32mPass[0m	[0;32m[✓][0m	401 1 died
+	[0;32m90 % correct[0m
+____________________________________________
+
+[1mRESULT: passed: 483	failed: 117[0m
+./test.sh: line 350: [: 80.5: integer expression expected
+./test.sh: line 352: [: 80.5: integer expression expected
+	[0;31m80.5 % correct[0m
+____________________________________________
