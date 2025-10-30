@@ -6,11 +6,11 @@
 /*   By: gkamanur <gkamanur@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/22 13:07:56 by gkamanur          #+#    #+#             */
-/*   Updated: 2025/10/27 09:20:10 by gkamanur         ###   ########.fr       */
+/*   Updated: 2025/10/30 11:41:02 by gkamanur         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "philo.h"
+#include "../philo.h"
 
 static void	ft_error(void)
 {

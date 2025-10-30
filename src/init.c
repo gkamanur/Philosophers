@@ -6,11 +6,11 @@
 /*   By: gkamanur <gkamanur@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/21 11:50:13 by gkamanur          #+#    #+#             */
-/*   Updated: 2025/10/30 11:03:34 by gkamanur         ###   ########.fr       */
+/*   Updated: 2025/10/30 11:41:05 by gkamanur         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "philo.h"
+#include "../philo.h"
 
 int	parse_args(t_data *data, int argc, char **argv)
 {

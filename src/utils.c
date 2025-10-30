@@ -6,11 +6,11 @@
 /*   By: gkamanur <gkamanur@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/21 11:50:54 by gkamanur          #+#    #+#             */
-/*   Updated: 2025/10/29 13:15:54 by gkamanur         ###   ########.fr       */
+/*   Updated: 2025/10/30 11:41:15 by gkamanur         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "philo.h"
+#include "../philo.h"
 
 long	get_current_time(void)
 {

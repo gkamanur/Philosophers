@@ -6,11 +6,11 @@
 /*   By: gkamanur <gkamanur@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/21 13:35:40 by gkamanur          #+#    #+#             */
-/*   Updated: 2025/10/21 13:35:54 by gkamanur         ###   ########.fr       */
+/*   Updated: 2025/10/30 11:41:09 by gkamanur         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "philo.h"
+#include "../philo.h"
 
 static int	handle_philo_death(t_data *data, t_philo *philo)
 {

@@ -6,11 +6,11 @@
 /*   By: gkamanur <gkamanur@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/21 13:33:44 by gkamanur          #+#    #+#             */
-/*   Updated: 2025/10/30 11:07:57 by gkamanur         ###   ########.fr       */
+/*   Updated: 2025/10/30 11:41:11 by gkamanur         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "philo.h"
+#include "../philo.h"
 
 static void	handle_single_philo(t_philo *philo)
 {

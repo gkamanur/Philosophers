@@ -6,11 +6,11 @@
 /*   By: gkamanur <gkamanur@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/30 11:05:07 by gkamanur          #+#    #+#             */
-/*   Updated: 2025/10/30 11:08:40 by gkamanur         ###   ########.fr       */
+/*   Updated: 2025/10/30 11:41:13 by gkamanur         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "philo.h"
+#include "../philo.h"
 
 long	calculate_stagger(t_philo *philo)
 {

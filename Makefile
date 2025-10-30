@@ -1,16 +1,34 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    Makefile                                           :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: gkamanur <gkamanur@student.42.fr>          +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2025/10/30 11:39:32 by gkamanur          #+#    #+#              #
+#    Updated: 2025/10/30 11:44:30 by gkamanur         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
 NAME = philo
 
 CC = cc
 CFLAGS = -Wall -Wextra -Werror -pthread
 
-SRCDIR = .
+SRCDIR = src
 OBJDIR = obj
 
-SOURCES = main.c utils.c init.c monitor_death.c routine.c checks.c cleanup.c ft_atoi.c eating.c stagger.c
-OBJECTS = $(SOURCES:%.c=$(OBJDIR)/%.o)
+# Source files
+SOURCES = main.c utils.c init.c monitor_death.c routine.c \
+		  checks.c cleanup.c ft_atoi.c eating.c stagger.c
 
+# Object files (obj/file.o)
+OBJECTS = $(addprefix $(OBJDIR)/,$(SOURCES:.c=.o))
+
+# =============================
+# Build Rules
+# =============================
 all: $(NAME)
-
 $(NAME): $(OBJECTS)
 	$(CC) $(CFLAGS) $(OBJECTS) -o $(NAME)
 
@@ -29,8 +47,8 @@ re: fclean all
 # =============================
 # 💧 Memory Leak Check Rule
 # =============================
-# Usage: make leaks ARGS="philo arguments"
-# Example: make leaks ARGS="5 800 200 200"
+# Usage: make leaks ARGS="5 800 200 200"
+# Runs Valgrind and logs results to valgrind_report.txt
 
 leaks: $(NAME)
 	@echo "🔍 Checking for memory leaks..."
@@ -39,6 +57,7 @@ leaks: $(NAME)
 		--log-file=valgrind_report.txt \
 		./$(NAME) $(ARGS) || true
 	@echo "📄 Valgrind report saved to valgrind_report.txt"
-	@grep -E "definitely lost|indirectly lost|possibly lost" valgrind_report.txt || echo "✅ No leaks found!"
+	@grep -E "definitely lost|indirectly lost|possibly lost" valgrind_report.txt \
+		|| echo "✅ No leaks found!"
 
 .PHONY: all clean fclean re leaks

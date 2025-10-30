@@ -6,11 +6,11 @@
 /*   By: gkamanur <gkamanur@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/21 11:50:02 by gkamanur          #+#    #+#             */
-/*   Updated: 2025/10/21 13:40:56 by gkamanur         ###   ########.fr       */
+/*   Updated: 2025/10/30 11:39:53 by gkamanur         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "philo.h"
+#include "../philo.h"
 
 int	check_death(t_philo *philo)
 {

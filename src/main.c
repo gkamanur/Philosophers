@@ -6,11 +6,11 @@
 /*   By: gkamanur <gkamanur@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/21 11:49:54 by gkamanur          #+#    #+#             */
-/*   Updated: 2025/10/29 12:02:50 by gkamanur         ###   ########.fr       */
+/*   Updated: 2025/10/30 11:41:07 by gkamanur         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "philo.h"
+#include "../philo.h"
 
 int	init_data(t_data *data, int argc, char **argv)
 {

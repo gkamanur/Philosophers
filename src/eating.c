@@ -6,11 +6,11 @@
 /*   By: gkamanur <gkamanur@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/30 10:56:50 by gkamanur          #+#    #+#             */
-/*   Updated: 2025/10/30 11:08:21 by gkamanur         ###   ########.fr       */
+/*   Updated: 2025/10/30 11:40:55 by gkamanur         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "philo.h"
+#include "../philo.h"
 
 pthread_mutex_t	*get_first_fork(t_philo *philo)
 {
