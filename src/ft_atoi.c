@@ -6,7 +6,7 @@
 /*   By: gkamanur <gkamanur@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/22 13:07:56 by gkamanur          #+#    #+#             */
-/*   Updated: 2025/10/30 11:41:02 by gkamanur         ###   ########.fr       */
+/*   Updated: 2025/10/30 11:55:00 by gkamanur         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -62,5 +62,7 @@ int	ft_atoi(const char *str)
 
 	str = skip_spaces_and_sign(str);
 	result = parse_digits(str);
+	if (result == 0)
+		ft_error();
 	return ((int)result);
 }

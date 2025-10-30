@@ -6,7 +6,7 @@
 /*   By: gkamanur <gkamanur@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/21 13:35:40 by gkamanur          #+#    #+#             */
-/*   Updated: 2025/10/30 11:41:09 by gkamanur         ###   ########.fr       */
+/*   Updated: 2025/10/30 13:27:10 by gkamanur         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,6 +44,8 @@ static int	check_all_ate(t_data *data)
 		}
 		i++;
 	}
+	if (all_ate)
+		printf("All philosophers have eaten %d times.\n", data->nb_meals);
 	pthread_mutex_unlock(&data->meal_lock);
 	return (all_ate);
 }
