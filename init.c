@@ -6,7 +6,7 @@
 /*   By: gkamanur <gkamanur@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/21 11:50:13 by gkamanur          #+#    #+#             */
-/*   Updated: 2025/10/29 12:38:54 by gkamanur         ###   ########.fr       */
+/*   Updated: 2025/10/30 11:03:34 by gkamanur         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ int	parse_args(t_data *data, int argc, char **argv)
 	data->nb_meals = -1;
 	if (argc == 6)
 		data->nb_meals = ft_atoi(argv[5]);
-	else 
+	else
 		data->nb_meals = -1;
 	data->dead = 0;
 	data->finished = 0;

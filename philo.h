@@ -6,7 +6,7 @@
 /*   By: gkamanur <gkamanur@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/21 11:50:30 by gkamanur          #+#    #+#             */
-/*   Updated: 2025/10/27 09:25:49 by gkamanur         ###   ########.fr       */
+/*   Updated: 2025/10/30 11:06:44 by gkamanur         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -65,6 +65,19 @@ void					init_forks(t_data *data);
 
 int						init_data(t_data *data, int argc, char **argv);
 int						init_philos(t_data *data);
+
+/* eating */
+void					release_forks(pthread_mutex_t *first,
+							pthread_mutex_t *second);
+void					eat_meal(t_philo *philo);
+void					take_forks(t_philo *philo, pthread_mutex_t *first,
+							pthread_mutex_t *second);
+pthread_mutex_t			*get_second_fork(t_philo *philo);
+pthread_mutex_t			*get_first_fork(t_philo *philo);
+
+/* Stagger */
+void					apply_stagger_if_needed(t_philo *philo);
+long					calculate_stagger(t_philo *philo);
 
 /* Simulation */
 void					*philosopher_routine(void *arg);
